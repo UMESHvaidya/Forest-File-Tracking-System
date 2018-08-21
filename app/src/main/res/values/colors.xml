@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#1B5E20</color>
+    <color name="colorAccent">#2196f3</color>
+    <color name="darkBlue">#23283a</color>
+    <color name="colorButton">#2196f3</color>
+    <color name="colorButtontext">#fff</color>
+    <color name="ColorButton">#2196f3</color>
+    <color name="ColorButtonText">#fff</color>
+    <color name="create">#00BF9A</color>
+    <color name="drawer">#F9A11F</color>
+    <color name="colornew">#8D6E63</color>
+</resources>

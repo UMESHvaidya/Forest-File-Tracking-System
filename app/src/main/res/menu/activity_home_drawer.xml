@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+            android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/homi"
+            android:title="Home" />
+        <item
+            android:id="@+id/createfile"
+            android:icon="@drawable/createfile1"
+            android:title="Register A New File" />
+
+        <item
+            android:id="@+id/check"
+            android:icon="@drawable/library"
+            android:title=" View Uploaded Files" />
+
+
+        <item
+            android:id="@+id/manual"
+            android:icon="@drawable/manual"
+            android:title="Manual" />
+        <item
+            android:id="@+id/nav_web"
+            android:icon="@drawable/ic_web_black_24dp"
+            android:title="Tigertech 2018" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout_variant"
+            android:title="Logout"/>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

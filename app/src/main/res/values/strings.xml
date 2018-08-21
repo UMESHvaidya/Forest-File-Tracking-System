@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ForrestApp</string>
+    <string name="title_activity_home">home</string>
+    <string name="loginbtn">LOGIN</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="createacc">Create An Account</string>
+    <string name="action_settings">Settings</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password</string>
+    <string name="a_brief_background_to_the_challenge_problem_government_offices_are_often_loaded_with_papers_and_files_wherein_there_is_a_lot_of_paperwork_which_is_difficult_to_handle_and_maintain_the_solution_is_sought_where_paperwork_can_be_tracked_in_a_certain_application_with_a_timeline_as_well_as_recorded_digitally_so_that_least_paper_is_used">A brief background to the challenge/problem: Government offices are often loaded with papers and files wherein there is a lot of paperwork which is difficult to handle and maintain. The solution is sought where paperwork can be tracked in a certain application with a timeline as well as recorded digitally so that least paper is used.</string>
+    <string name="forest_work_office_file_tracking_system">Forest work/office file tracking system</string>
+    <string name="attempts_remaining">Attempts Remaining:</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="account_registration">Account Registration</string>
+    <string name="email">Email</string>
+    <string name="file_no">File No :</string>
+    <string name="register_new_file">Register New File</string>
+    <string name="file_date">File Date :</string>
+    <string name="file_reference">File Reference :</string>
+    <string name="district">District :</string>
+    <string name="fie_title">Fie Title :</string>
+    <string name="file_subject">File Subject :</string>
+    <string name="file_received_from">File Received From :</string>
+    <string name="remarks_if_any">Remarks (If Any) :</string>
+    <string name="file_forwarded_to">File Forwarded To :</string>
+    <string name="attach_a_file">Attach A File :     </string>
+</resources>

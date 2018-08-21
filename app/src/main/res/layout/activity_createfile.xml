@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/border_style">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/border_style"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8bc34a">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:text="@string/register_new_file"
+                    android:textColor="#ffffff"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/scrollView"
+                android:paddingTop="15dp"
+                android:text="@string/file_no"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etfileno"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:background="@drawable/border_style"
+                android:backgroundTint="#fff"
+                android:ems="10"
+                android:inputType="textAutoComplete|textAutoCorrect"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/scrollView"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="File Reference Number: "
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etfileref"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_below="@+id/textView"
+                android:background="@drawable/border_style"
+                android:backgroundTint="#fff"
+                android:ems="10"
+                android:inputType="textAutoComplete|textAutoCorrect"
+                android:padding="6dp" />
+            <TextView
+                android:id="@+id/e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/scrollView"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="@string/district"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etdistrict"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_below="@+id/textView"
+                android:background="@drawable/border_style"
+                android:backgroundTint="#fff"
+                android:ems="10"
+                android:inputType="textAutoComplete|textAutoCorrect"
+                android:padding="6dp" />
+            <TextView
+                android:id="@+id/h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/scrollView"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="File Title :"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etfiletitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_below="@+id/textView"
+                android:background="@drawable/border_style"
+                android:backgroundTint="#fff"
+                android:ems="10"
+                android:inputType="textAutoComplete|textAutoCorrect"
+                android:padding="6dp" />
+
+            <TextView
+                android:id="@+id/n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/scrollView"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="@string/remarks_if_any"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/etfileremarks"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:background="@drawable/border_style"
+                android:backgroundTint="#fff"
+                android:ems="10"
+                android:inputType="textAutoComplete|textAutoCorrect"
+                android:padding="6dp" />
+
+
+            <TextView
+                android:id="@+id/j"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/scrollView"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="@string/file_subject"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etfilesubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="7dp"
+                android:background="@drawable/border_style"
+                android:backgroundTint="#fff"
+                android:ems="10"
+                android:inputType="textAutoComplete|textAutoCorrect"
+                android:padding="6dp" />
+            <TextView
+                android:id="@+id/l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/scrollView"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="@string/file_received_from"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etfilereceived"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_below="@+id/textView"
+                android:background="@drawable/border_style"
+                android:backgroundTint="#fff"
+                android:ems="10"
+                android:inputType="textAutoComplete|textAutoCorrect"
+                android:padding="6dp" />
+
+
+            <TextView
+                android:id="@+id/p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toStartOf="@+id/scrollView"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="@string/file_forwarded_to"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etfileforward"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:background="@drawable/border_style"
+                android:backgroundTint="#fff"
+                android:ems="10"
+                android:inputType="textAutoComplete|textAutoCorrect"
+                android:padding="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnsave"
+                style="@style/LOGIN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text=" SAVE "
+                android:textColor="#fff" />
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnreset"
+                style="@style/LOGIN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text=" RESET "
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

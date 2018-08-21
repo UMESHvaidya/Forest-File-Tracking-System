@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkBlue"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:id="@+id/l1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forest_work_office_file_tracking_system"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:text="@string/a_brief_background_to_the_challenge_problem_government_offices_are_often_loaded_with_papers_and_files_wherein_there_is_a_lot_of_paperwork_which_is_difficult_to_handle_and_maintain_the_solution_is_sought_where_paperwork_can_be_tracked_in_a_certain_application_with_a_timeline_as_well_as_recorded_digitally_so_that_least_paper_is_used"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etPassword"
+        android:layout_below="@+id/l1"
+        android:layout_marginTop="22dp"
+        android:background="#fff"
+        android:editable="true"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/email_id"
+        android:inputType="textEmailAddress"
+        android:padding="6dp" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnRegister"
+        style="@style/LOGIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="@string/loginbtn"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="#fff"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="6dp" />
+
+    <TextView
+        android:id="@+id/tvAttempts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/attempts_remaining"
+        android:textSize="15dp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/tvRegistration"
+        style="@style/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAttempts"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="@string/createacc"/>
+
+
+
+
+
+</RelativeLayout>

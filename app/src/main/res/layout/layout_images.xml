@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#673AB7">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="List of File Uploaded"
+            android:textColor="#ffffff"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="0dp">
+
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:background="@drawable/border_style"
+        android:minHeight="150dp">
+
+
+        <TextView
+            android:id="@+id/textViewUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:width="185dip"
+            android:gravity="left"
+            android:text="Username"
+            android:paddingLeft="6dp"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorButton"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textViewUser"
+            android:layout_alignBottom="@+id/textViewUser"
+            android:layout_alignParentEnd="true"
+            android:width="185dip"
+            android:gravity="right"
+            android:paddingRight="5dp"
+            android:text="Date"
+            android:textAlignment="gravity"
+            android:textSize="14dp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/textViewDate"
+            android:background="#795548" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewDate" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/imageView"
+            android:background="#795548" />
+
+        <TextView
+            android:id="@+id/abc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colornew"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/view"
+            android:layout_marginStart="4dp"
+            android:text="File No :"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/Fileno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/abc"
+            android:layout_below="@+id/textViewUser"
+            android:layout_marginStart="126dp"
+            android:text="File No"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/abcd"
+            android:textColor="@color/colornew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/comment"
+            android:layout_marginStart="4dp"
+            android:text="File Tiltle :"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/Fileno"
+            android:layout_below="@+id/abc"
+            android:text="Comment"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/comment"
+            android:layout_below="@+id/abcd"
+            android:text="Subject :"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/subject1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colornew"
+            android:layout_below="@+id/abcd"
+            android:layout_marginStart="4dp"
+            android:text="Subject :"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/reference1"
+            android:layout_width="match_parent"
+            android:textColor="@color/colornew"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subject"
+            android:layout_marginStart="4dp"
+            android:text="Ref.  No :"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/reference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/subject"
+            android:layout_below="@+id/subject"
+            android:text="Reference No :"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/district1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reference"
+            android:layout_marginStart="4dp"
+            android:textColor="@color/colornew"
+            android:text="District :"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/district"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/reference"
+            android:layout_below="@+id/reference"
+            android:text="District :"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/received1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/district"
+            android:textColor="@color/colornew"
+            android:layout_marginStart="4dp"
+            android:text="Recved From:"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/received"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/received1"
+            android:layout_alignBottom="@+id/received1"
+            android:layout_alignStart="@+id/district"
+            android:text="Received:"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/remarks1"
+            android:layout_width="match_parent"
+            android:textColor="@color/colornew"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/received"
+            android:layout_marginStart="4dp"
+            android:text="Remarks :"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/remarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/remarks1"
+            android:layout_alignBottom="@+id/remarks1"
+            android:layout_alignStart="@+id/district"
+            android:text="Remarks:"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/forwarded1"
+            android:layout_width="match_parent"
+            android:textColor="@color/colornew"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/remarks"
+            android:layout_marginStart="4dp"
+            android:text="Forward To :"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/forwarded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/forwarded1"
+            android:layout_alignBottom="@+id/forwarded1"
+            android:layout_alignStart="@+id/remarks"
+            android:text="Fowarded:"
+            android:textSize="19sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+    </LinearLayout>
+</LinearLayout>

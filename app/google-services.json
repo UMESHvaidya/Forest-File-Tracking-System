@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "388310184808",
+    "firebase_url": "https://forrestapp-1a60b.firebaseio.com",
+    "project_id": "forrestapp-1a60b",
+    "storage_bucket": "forrestapp-1a60b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388310184808:android:8ab2e994d2f43228",
+        "android_client_info": {
+          "package_name": "com.vaidya.umesh.forrestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388310184808-jnmfvjev1v1smbf05j2b8lknjah304ij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vaidya.umesh.forrestapp",
+            "certificate_hash": "ac4c35478966e505c0c22865d5850ed88792f623"
+          }
+        },
+        {
+          "client_id": "388310184808-v652q1u4pla9lv608d0a5cd5ui5f23mm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTuhv7tImjDfQGirEJ7GX5Q5FqnjNFXyo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388310184808-v652q1u4pla9lv608d0a5cd5ui5f23mm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
